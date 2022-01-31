@@ -1,0 +1,199 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+
+img{
+    width: 400px;
+
+}
+body{
+    position: relative;
+    margin: 120px 0;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: hotpink;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar_links{
+    display: flex;
+    margin: auto 50px;
+  
+    
+
+}
+.navbar_link{
+    margin: auto 50px;
+    text-decoration: none;
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign_up{  
+    text-align: center;
+    margin: 50px auto;
+   
+}
+
+#email{
+    width: 300px;
+    height: 10px;
+    padding: 10px;
+    display: block;
+    margin: 25px auto;
+}
+
+#btn{
+    width: 150px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 208, 0); 
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.image_logo{
+    width: 100px;
+    height: 100px;
+    margin: auto 50px;
+
+}
+
+.sales_content{
+    display: flex;
+    margin: auto;
+    width: 70%;
+   
+}
+
+.sales_text{
+    text-align: left;
+}
+
+#full-battery_image{
+    padding: 20px 5px; 
+   margin-left: 70px;
+}
+#flame_logo{
+    padding: 20px
+}
+.sales_prices{
+    display: flex;
+    justify-content: center;
+
+}
+.sale_price{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 2px;
+    margin: 10px;
+    text-align: center;
+    padding: 60px;
+    display: flex; 
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+.video{
+    text-align: center;
+    
+}
+iframe{
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+}
+
+span h3{
+    background-color: rgb(201, 199, 199);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding: 5px 30px;
+    color: black;
+    
+    
+}
+
+#sale_btn{
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 208, 0); 
+    font-weight: 900;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(243, 188, 7);
+}
+
+#sale_btn:hover{
+    background-color: rgb(243, 188, 7);
+}
+
+.prices{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.footer_wrapper{
+    margin: 50px auto;
+    text-align: right;
+    background-color: rgb(201, 199, 199);
+    height: 6em;
+
+}
+.footer_links, .footer_links>a{
+    display: inline-flex;
+    margin:4px 6px ;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+span{
+    color: grey;
+}
+
+@media (max-width:750px){
+    *{ 
+        flex-wrap: wrap;
+    }
+
+}
+@media (min-width:750px){
+   .navbar_container{
+    flex-wrap: wrap;
+   
+    
+}
+    .navbar_links{
+        flex-wrap: wrap;
+        margin: 20px 0;
+        
+    }
+}
+
